@@ -1,0 +1,3 @@
+gdb_arrow.py linguist-vendored
+scripts/** linguist-vendored
+notebooks/** linguist-vendored
