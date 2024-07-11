@@ -1,14 +1,23 @@
 # yabte_cpp - Yet Another BackTesting Engine - C++ Extensions
 
-Reimplementation of YABTE project in C++ for faster back testing and batch running.
+Reimplementation of yabte project in C++ for faster back testing and batch running.
 
-# License
+Features
+
+* Mostly compatible with [yabte](https://github.com/bsdz/yabte).
+* Supports basic objects, Asset, Book, Order, Strategy and Runner.
+* Multithreaded support with GIL.
+* Arrow backend.
+
+There's also experimental SubInterpreter support but this is not working yet.
+
+## License
 
 This library is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public
 License and is intended for personal use only. It cannot be used in a Bank, Hedgefund, Commodity House etc 
 without prior permission from author (Blair Azzopardi).
 
-# Set up
+## Set up
 
 Use conan to build and prepare the dependencies (use clang profile for improved debugging).
 
@@ -56,3 +65,7 @@ or directly to view logging:
 ```bash
 ./gtest_yabte | less
 ```
+
+## Usage
+
+See accompanying scripts and tests.
